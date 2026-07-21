@@ -17,8 +17,8 @@ import sys
 from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from src.config import SILVER_TABLE  # noqa: E402
-from src.utils.spark_session import get_spark  # noqa: E402
+from src.config import SILVER_TABLE 
+from src.utils.spark_session import get_spark  
 
 QUERY = f"""
 SELECT
