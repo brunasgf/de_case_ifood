@@ -1,5 +1,5 @@
 """
-Análise Exploratória (EDA)
+Análise Exploratória 
 ===========================
 Visão geral rápida da tabela de consumo: volumetria, nulos, distribuição
 de valores e o efeito das regras de qualidade aplicadas na camada Silver.
@@ -15,8 +15,8 @@ from pathlib import Path
 from pyspark.sql import functions as F
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from src.config import BRONZE_TABLE, SILVER_TABLE  # noqa: E402
-from src.utils.spark_session import get_spark  # noqa: E402
+from src.config import BRONZE_TABLE, SILVER_TABLE  
+from src.utils.spark_session import get_spark  
 
 
 def run():
