@@ -1,0 +1,4 @@
+# --- Núcleo do pipeline (obrigatório) ---
+pyspark==3.5.1
+delta-spark==3.2.0
+pytest>=8.0
