@@ -1,6 +1,6 @@
 # Resultado da Análise Geral
 
-### 1. Volumetria: Bronze (bruto) vs Silver (consumo, pós-qualidade)
+### 1. Volumetria: Bronze vs Silver 
 
 - **Bronze:** 16.186.386 linhas
 - **Silver:** 16.185.487 linhas
